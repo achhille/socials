@@ -235,3 +235,15 @@ footer{
         font-size: 10px;
     }
 }
+
+#name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: yellow;
+    text-align: center;
+    margin-top: 40%;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: #FF2D95 5px 0px 20px;
+}
