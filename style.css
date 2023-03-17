@@ -104,6 +104,7 @@ h1:hover{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     border-radius: 50%;
     border-width: 10px;
     border-style: dotted;
@@ -190,6 +191,45 @@ button{
     transition: border-radius 0.2s ease-in-out;
     text-shadow: #05ef18 5px 0px 5px;
 }
+
+#spot{
+    background-color: rgb(0, 168, 17);
+    color: white;  
+}
+
+#spot:hover{
+    background-image: url(https://img.freepik.com/premium-photo/3d-spotify-logo-icon-high-quality-render_474486-52.jpg);
+    background-size: contain;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+    box-shadow: #05ef18 0px 0px 10px 5px;
+    transition: box-shadow 0.2s ease-in-out;
+    border-radius: 50%;
+    transition: border-radius 0.2s ease-in-out;
+    text-shadow: #05ef18 5px 0px 5px;
+}
+
+#twitch{
+    background-color: rgb(141, 0, 196);
+    color: white;
+}
+
+#twitch:hover{
+    background-image: url(https://logos-world.net/wp-content/uploads/2020/11/Twitch-TV-Logo-2011-2012.jpg);
+    background-size: contain;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+    box-shadow: #05ef18 0px 0px 10px 5px;
+    transition: box-shadow 0.2s ease-in-out;
+    border-radius: 50%;
+    transition: border-radius 0.2s ease-in-out;
+    text-shadow: #05ef18 5px 0px 5px;
+}
+
 
 .text_ctn{
     display: flex;
