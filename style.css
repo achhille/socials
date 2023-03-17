@@ -217,13 +217,16 @@ footer{
     height: 50px;
     color: white;
     box-shadow: #3c00ff 0px 0px 40px 3px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 @media screen and (max-width: 800px) {
     h1{
         font-size: 15px;
     }
-    
+
     .text_ctn p{
         font-size: 10px;
     }
